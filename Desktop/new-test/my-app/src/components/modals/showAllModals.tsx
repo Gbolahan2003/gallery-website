@@ -4,9 +4,6 @@ import testModal from "./testModal";
 import TestModal from "./testModal";
 import AddImage from "./addImageDocument";
 import DeleteModal from "./deleteModal";
-import ShareModal from "./shareModal";
-import OverlayModal from "./overlayModal";
-import UpdateImageModal from "./editImageDocument";
 
 const ShowAllModals = () => {
     
@@ -16,9 +13,7 @@ const ShowAllModals = () => {
     const Modals = {
         TestModal:TestModal,
         AddImage:AddImage,
-        OverlayModal:OverlayModal,
-        UpdateImageModal:UpdateImageModal 
-        
+        DeleteModal:DeleteModal
     }
     const show = useAppSelector(state => state.utils.show)
 

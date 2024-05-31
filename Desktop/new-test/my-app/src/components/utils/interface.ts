@@ -9,9 +9,3 @@ export  interface  customSelectOption{
     value:string|number,
     label:string|number
 }
-
-export interface shareImage {
-    imageUrl:string,
-    name:string,
-    description:string
-}
